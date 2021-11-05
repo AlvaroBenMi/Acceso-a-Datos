@@ -1,0 +1,7 @@
+2021-10-07 12:22:32 INFO  Main:24 - Empresa@30dc7a71
+2021-10-07 12:23:39 INFO  Main:21 - Empresa@30dc7a71
+2021-10-07 12:24:19 INFO  Main:27 - Empresa@30dc7a71
+2021-10-07 12:24:52 INFO  Main:20 - Empresa@30dc7a71
+2021-10-07 12:25:30 INFO  Main:20 - Empresa@30dc7a71
+2021-10-07 12:27:33 INFO  Main:20 - Empresa{nombre='Bronceados Jesus', departamentos=[Departamento{nombre='Inspeccion', empleados=[Empleado{nif='785157897Q', nombre='Jaime', apellidos='Rodriguez', cargo='Jefe de Furros'}, Empleado{nif='785157897Q', nombre='Alejandro', apellidos='Casper', cargo='Desconocido'}]}, Departamento{nombre='Marketing', empleados=[Empleado{nif='785157897Q', nombre='Carlos', apellidos='Sin Pelo', cargo='Jefe de Ventas'}, Empleado{nif='785157897Q', nombre='Jorge', apellidos='Paz Señor', cargo='Esclavo'}]}]}
+2021-10-14 10:36:44 INFO  Main:20 - Empresa{nombre='Bronceados Jesus', departamentos=[Departamento{nombre='Inspeccion', empleados=[Empleado{nif='785157897Q', nombre='Jaime', apellidos='Rodriguez', cargo='Jefe de Furros'}, Empleado{nif='785157897Q', nombre='Alejandro', apellidos='Casper', cargo='Desconocido'}]}, Departamento{nombre='Marketing', empleados=[Empleado{nif='785157897Q', nombre='Carlos', apellidos='Sin Pelo', cargo='Jefe de Ventas'}, Empleado{nif='785157897Q', nombre='Jorge', apellidos='Paz Señor', cargo='Esclavo'}]}]}

@@ -1,0 +1,185 @@
+2021-11-03 11:09:19 main WARN  AnnotationConfigApplicationContext:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [CompanyConfiguration]; nested exception is java.io.FileNotFoundException: class path resource [aplication.properties] cannot be opened because it does not exist
+2021-11-03 11:43:38 main WARN  AnnotationConfigApplicationContext:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'titleDAO' defined in CompanyConfiguration: Unsatisfied dependency expressed through method 'titleDAO' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdbcTemplate' defined in CompanyConfiguration: Unsatisfied dependency expressed through method 'jdbcTemplate' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-11-03 11:45:01 main WARN  AnnotationConfigApplicationContext:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'departmentDAO' defined in CompanyConfiguration: Unsatisfied dependency expressed through method 'departmentDAO' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdbcTemplate' defined in CompanyConfiguration: Unsatisfied dependency expressed through method 'jdbcTemplate' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-11-03 11:47:33 main WARN  AnnotationConfigApplicationContext:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'departmentDAO' defined in CompanyConfiguration: Unsatisfied dependency expressed through method 'departmentDAO' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdbcTemplate' defined in CompanyConfiguration: Unsatisfied dependency expressed through method 'jdbcTemplate' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-11-03 11:48:55 main INFO  Company.ClassTables.Menu:49 - Elige una accion
+2021-11-03 11:48:55 main INFO  Company.ClassTables.Menu:35 -
+//** MENU PRINCIPAL **//
+1. Mostar departamentos
+2. Mostrar empleados de un departamento
+3. Insertar departamento nuevo
+4. Salir
+
+2021-11-03 11:49:14 main INFO  Company.ClassTables.Menu:56 - SHOW DEPARTMENT
+2021-11-03 11:55:18 main INFO  Company.ClassTables.Menu:49 - Elige una accion
+2021-11-03 11:55:18 main INFO  Company.ClassTables.Menu:35 -
+//** MENU PRINCIPAL **//
+1. Mostar departamentos
+2. Mostrar empleados de un departamento
+3. Insertar departamento nuevo
+4. Salir
+
+2021-11-03 11:55:25 main INFO  Company.ClassTables.Menu:74 - DEPARTMENT INSERT
+2021-11-03 11:55:25 main INFO  DepartmentReader:19 - Inserta departamento
+2021-11-03 11:55:55 main INFO  DepartmentReader:24 - Inserta descripcion
+2021-11-03 11:58:18 main INFO  Company.ClassTables.Menu:49 - Elige una accion
+2021-11-03 11:58:18 main INFO  Company.ClassTables.Menu:35 -
+//** MENU PRINCIPAL **//
+1. Mostar departamentos
+2. Mostrar empleados de un departamento
+3. Insertar departamento nuevo
+4. Salir
+
+2021-11-03 11:58:22 main INFO  Company.ClassTables.Menu:74 - DEPARTMENT INSERT
+2021-11-03 11:58:22 main INFO  DepartmentReader:19 - Inserta departamento
+2021-11-03 11:58:28 main INFO  DepartmentReader:24 - Inserta descripcion
+2021-11-03 12:05:35 main INFO  Company.ClassTables.Menu:49 - Elige una accion
+2021-11-03 12:05:35 main INFO  Company.ClassTables.Menu:35 -
+//** MENU PRINCIPAL **//
+1. Mostar departamentos
+2. Mostrar empleados de un departamento
+3. Insertar departamento nuevo
+4. Salir
+
+2021-11-03 12:05:38 main INFO  Company.ClassTables.Menu:74 - DEPARTMENT INSERT
+2021-11-03 12:05:38 main INFO  DepartmentReader:19 - Inserta nombre
+2021-11-03 12:05:43 main INFO  DepartmentReader:24 - Inserta descripcion
+2021-11-03 12:26:49 main INFO  Company.ClassTables.Menu:49 - Elige una accion
+2021-11-03 12:26:49 main INFO  Company.ClassTables.Menu:35 -
+//** MENU PRINCIPAL **//
+1. Mostar departamentos
+2. Mostrar empleados de un departamento
+3. Insertar departamento nuevo
+4. Salir
+
+2021-11-03 12:26:52 main INFO  Company.ClassTables.Menu:74 - DEPARTMENT INSERT
+2021-11-03 12:26:52 main INFO  DepartmentReader:19 - Inserta nombre
+2021-11-03 12:26:58 main INFO  DepartmentReader:24 - Inserta descripcion
+2021-11-03 12:30:14 main INFO  Company.ClassTables.Menu:49 - Elige una accion
+2021-11-03 12:30:14 main INFO  Company.ClassTables.Menu:35 -
+//** MENU PRINCIPAL **//
+1. Mostar departamentos
+2. Mostrar empleados de un departamento
+3. Insertar departamento nuevo
+4. Salir
+
+2021-11-03 12:30:18 main INFO  Company.ClassTables.Menu:74 - DEPARTMENT INSERT
+2021-11-03 12:30:18 main INFO  DepartmentReader:19 - Inserta nombre
+2021-11-03 12:30:20 main INFO  DepartmentReader:24 - Inserta descripcion
+2021-11-03 12:31:56 main INFO  Company.ClassTables.Menu:49 - Elige una accion
+2021-11-03 12:31:56 main INFO  Company.ClassTables.Menu:35 -
+//** MENU PRINCIPAL **//
+1. Mostar departamentos
+2. Mostrar empleados de un departamento
+3. Insertar departamento nuevo
+4. Salir
+
+2021-11-03 12:31:58 main INFO  Company.ClassTables.Menu:74 - DEPARTMENT INSERT
+2021-11-03 12:31:58 main INFO  DepartmentReader:19 - Inserta nombre
+2021-11-03 12:32:00 main INFO  DepartmentReader:24 - Inserta descripcion
+2021-11-03 12:32:24 main INFO  Company.ClassTables.Menu:49 - Elige una accion
+2021-11-03 12:32:24 main INFO  Company.ClassTables.Menu:35 -
+//** MENU PRINCIPAL **//
+1. Mostar departamentos
+2. Mostrar empleados de un departamento
+3. Insertar departamento nuevo
+4. Salir
+
+2021-11-03 12:32:28 main INFO  Company.ClassTables.Menu:74 - DEPARTMENT INSERT
+2021-11-03 12:32:28 main INFO  DepartmentReader:19 - Inserta nombre
+2021-11-03 12:32:29 main INFO  DepartmentReader:24 - Inserta descripcion
+2021-11-03 12:32:29 main INFO  Company.ClassTables.Menu:76 -
+
+2021-11-03 12:32:29 main INFO  Company.ClassTables.Menu:49 - Elige una accion
+2021-11-03 12:32:29 main INFO  Company.ClassTables.Menu:35 -
+//** MENU PRINCIPAL **//
+1. Mostar departamentos
+2. Mostrar empleados de un departamento
+3. Insertar departamento nuevo
+4. Salir
+
+2021-11-03 12:43:13 main INFO  Company.ClassTables.Menu:49 - Elige una accion
+2021-11-03 12:43:13 main INFO  Company.ClassTables.Menu:35 -
+//** MENU PRINCIPAL **//
+1. Mostar departamentos
+2. Mostrar empleados de un departamento
+3. Insertar departamento nuevo
+4. Salir
+
+2021-11-03 12:43:17 main INFO  Company.ClassTables.Menu:56 - SHOW DEPARTMENT
+2021-11-03 12:43:18 main INFO  Company.ClassTables.Menu:59 - Department{name='fdf', description='sdf'}
+2021-11-03 12:43:18 main INFO  Company.ClassTables.Menu:59 - Department{name='Marketing', description='Labores de publicidad y gestión de clientes'}
+2021-11-03 12:43:18 main INFO  Company.ClassTables.Menu:61 -
+
+2021-11-03 12:43:18 main INFO  Company.ClassTables.Menu:49 - Elige una accion
+2021-11-03 12:43:18 main INFO  Company.ClassTables.Menu:35 -
+//** MENU PRINCIPAL **//
+1. Mostar departamentos
+2. Mostrar empleados de un departamento
+3. Insertar departamento nuevo
+4. Salir
+
+2021-11-03 12:43:35 main INFO  Company.ClassTables.Menu:65 - SHOW EMPLOYEES
+2021-11-03 12:43:35 main INFO  DepartmentReader:19 - Inserta nombre
+2021-11-03 12:44:19 main INFO  Company.ClassTables.Menu:49 - Elige una accion
+2021-11-03 12:44:19 main INFO  Company.ClassTables.Menu:35 -
+//** MENU PRINCIPAL **//
+1. Mostar departamentos
+2. Mostrar empleados de un departamento
+3. Insertar departamento nuevo
+4. Salir
+
+2021-11-03 12:44:21 main INFO  Company.ClassTables.Menu:65 - SHOW EMPLOYEES
+2021-11-03 12:44:21 main INFO  DepartmentReader:19 - Inserta nombre
+2021-11-03 12:45:55 main INFO  Company.ClassTables.Menu:49 - Elige una accion
+2021-11-03 12:45:55 main INFO  Company.ClassTables.Menu:35 -
+//** MENU PRINCIPAL **//
+1. Mostar departamentos
+2. Mostrar empleados de un departamento
+3. Insertar departamento nuevo
+4. Salir
+
+2021-11-03 12:45:58 main INFO  Company.ClassTables.Menu:65 - SHOW EMPLOYEES
+2021-11-03 12:45:58 main INFO  DepartmentReader:19 - Inserta nombre
+2021-11-03 12:48:38 main INFO  Company.ClassTables.Menu:49 - Elige una accion
+2021-11-03 12:48:38 main INFO  Company.ClassTables.Menu:35 -
+//** MENU PRINCIPAL **//
+1. Mostar departamentos
+2. Mostrar empleados de un departamento
+3. Insertar departamento nuevo
+4. Salir
+
+2021-11-03 12:48:41 main INFO  Company.ClassTables.Menu:65 - SHOW EMPLOYEES
+2021-11-03 12:48:41 main INFO  DepartmentReader:19 - Inserta nombre
+2021-11-03 12:50:03 main INFO  Company.ClassTables.Menu:49 - Elige una accion
+2021-11-03 12:50:03 main INFO  Company.ClassTables.Menu:35 -
+//** MENU PRINCIPAL **//
+1. Mostar departamentos
+2. Mostrar empleados de un departamento
+3. Insertar departamento nuevo
+4. Salir
+
+2021-11-03 12:50:05 main INFO  Company.ClassTables.Menu:65 - SHOW EMPLOYEES
+2021-11-03 12:50:05 main INFO  DepartmentReader:19 - Inserta nombre
+2021-11-03 12:51:02 main INFO  Company.ClassTables.Menu:49 - Elige una accion
+2021-11-03 12:51:02 main INFO  Company.ClassTables.Menu:35 -
+//** MENU PRINCIPAL **//
+1. Mostar departamentos
+2. Mostrar empleados de un departamento
+3. Insertar departamento nuevo
+4. Salir
+
+2021-11-03 12:51:05 main INFO  Company.ClassTables.Menu:65 - SHOW EMPLOYEES
+2021-11-03 12:51:05 main INFO  DepartmentReader:19 - Inserta nombre
+2021-11-03 12:51:09 main INFO  Company.ClassTables.Menu:68 - Employee{nif='00000000X', name='Pepa', surname='Pig', role='Jefe de departamento', department_name='Marketing'}
+2021-11-03 12:51:09 main INFO  Company.ClassTables.Menu:68 - Employee{nif='00000001X', name='George', surname='Pig', role='Publicista', department_name='Marketing'}
+2021-11-03 12:51:09 main INFO  Company.ClassTables.Menu:70 -
+
+2021-11-03 12:51:09 main INFO  Company.ClassTables.Menu:49 - Elige una accion
+2021-11-03 12:51:09 main INFO  Company.ClassTables.Menu:35 -
+//** MENU PRINCIPAL **//
+1. Mostar departamentos
+2. Mostrar empleados de un departamento
+3. Insertar departamento nuevo
+4. Salir
+

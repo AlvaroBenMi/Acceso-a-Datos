@@ -1,0 +1,39 @@
+ {
+  "nombre" : "Bronceados Jesus",
+  "departamentos": [
+    {
+    "nombre": "Inspeccion",
+      "empleados": [
+        {
+          "nif" : "785157897Q",
+          "nombre": "Jaime",
+          "apellidos": "Rodriguez",
+          "cargo" : "Jefe de Furros"
+        },
+        {
+          "nif" : "785157897Q",
+          "nombre": "Alejandro",
+          "apellidos": "Casper",
+          "cargo" : "Desconocido"
+        }
+      ]
+    },
+    {
+      "nombre": "Marketing",
+      "empleados": [
+        {
+          "nif" : "785157897Q",
+          "nombre": "Carlos",
+          "apellidos": "Sin Pelo",
+          "cargo" : "Jefe de Ventas"
+        },
+        {
+          "nif" : "785157897Q",
+          "nombre": "Jorge",
+          "apellidos": "Paz Señor",
+          "cargo" : "Esclavo"
+        }
+      ]
+    }
+]
+}
