@@ -49,12 +49,15 @@ public class MemberMenu {
 
                 case 3:
                     log.info("DELETE MEMBER BY NIF");
-                    memberService.deleteMemberByNif();
+                    log.info("Introduce el nif");
+                    String nif = scan.nextLine();
+                    memberService.deleteMemberByNif(nif);
                     break;
 
                 case 4:
                     log.info("MODIFY MEMBER");
-                    memberService.modifyMember();
+                    Member member = memberService.memberList.get(0);
+                    memberService.modifyMember(member);
                     break;
             }
 

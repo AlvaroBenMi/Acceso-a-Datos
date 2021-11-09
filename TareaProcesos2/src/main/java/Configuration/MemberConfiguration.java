@@ -14,6 +14,10 @@ import java.util.Scanner;
 public class MemberConfiguration {
 
     @Bean
+    public Scanner scan(){return new Scanner(System.in);}
+
+
+    @Bean
     public MemberReader memberReader(Scanner scan){return new MemberReader(scan);}
 
     @Bean
